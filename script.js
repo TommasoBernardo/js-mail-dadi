@@ -7,23 +7,13 @@ Mail
     Chiedi all’utente la sua email, controlla che sia nella lista di chi può accedere, stampa un messaggio appropriato sull’esito del controllo.
 */
 
-const dadiComputer = [];
-const dadiGiocatore = [];
 
-for(i = 0 ; i < 6 ; i++){
-    const randomNumber = Math.floor(Math.random() * 6);
-    dadiComputer.push(randomNumber);
-
-}
-
-for(i = 0 ; i < 6 ; i++){
-    const randomNumber = Math.floor(Math.random() * 6);
-    dadiGiocatore.push(randomNumber);
-
-}
-console.log(dadiComputer);
+let dadiGiocatore = Math.floor(Math.random() * 6);
+let dadiComputer = Math.floor(Math.random() * 6);
 
 console.log(dadiGiocatore);
+
+console.log(dadiComputer);
 
 if(dadiComputer > dadiGiocatore){
     console.log('dadiComputer vince !!');
