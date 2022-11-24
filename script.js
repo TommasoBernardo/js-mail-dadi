@@ -5,8 +5,8 @@ Gioco dei dadi
 */
 
 
-let dadiGiocatore = Math.floor(Math.random() * 7);
-let dadiComputer = Math.floor(Math.random() * 7);
+let dadiGiocatore = Math.floor(Math.random() * 6) + 1;
+let dadiComputer = Math.floor(Math.random() * 6)  + 1;
 
 console.log(dadiGiocatore);
 
