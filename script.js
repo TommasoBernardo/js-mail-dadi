@@ -12,8 +12,12 @@ console.log(dadiGiocatore);
 
 console.log(dadiComputer);
 
-if(dadiComputer > dadiGiocatore){
+if(dadiComputer == dadiGiocatore){
+    console.log("pareggio!!");
+}else if(dadiComputer > dadiGiocatore){
     console.log('dadiComputer vince !!');
 }else{
     console.log('dadiGiocatore vince !!');
 }
+
+
